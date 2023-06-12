@@ -1,3 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+h1 {
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 85%);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.gallery {
+    display: block;
+    overflow-y: auto;
+    margin-top: 1rem;
+    margin-inline: auto;
+}
+
+.gallery-item {
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-inline: 0.5rem;
+    border-radius: 4px;
+}
+
+.gallery-item + .gallery-item {
+    margin-top: 1rem;
+}
+
+#endOfGallery { opacity: 0; }
