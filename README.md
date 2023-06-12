@@ -1,15 +1,16 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 quick example for Intersection Observer API!
 
-This project has been created using **webpack-cli**, you can now run
 
-```
-npm run build
-```
-
-or
+To build this project, you can now run
 
 ```
-yarn build
+npm install
+npm run build:dev
+```
+To run this project, you can now run
+
+```
+npm run serve
 ```
 
-to bundle your application
+
